@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="syle.css" />
+  </head>
+
+  <body>
+    <div class="mian">
+      <div class="box">
+        <span class="pass-box"> Testing </span>
+        <div class="rows">
+          Password Length
+          <div class="right">
+            <input
+              type="number"
+              name=""
+              id="total"
+              max="50"
+              min="2"
+              value="10"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <label for="upper-case">
+            Container upper
+            <input type="checkbox" name="" id="upper-case" />
+          </label>
+        </div>
+        <div class="row">
+          <label for="lower-case">
+            Container lower
+            <input type="checkbox" name="" id="lower-case" />
+          </label>
+        </div>
+        <div class="row">
+          <label for="Num-case">
+            Container number
+            <input type="checkbox" name="" id="Num-case" />
+          </label>
+        </div>
+        <div class="row">
+          <label for="sym-case">
+            Container symbol
+            <input type="checkbox" name="" id="sym-case" />
+          </label>
+        </div>
+        <button class="btn">Generator</button>
+        <button class="cpy">copy Password</button>
+      </div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>

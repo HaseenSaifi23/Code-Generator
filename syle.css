@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+.mian {
+  background-color: cadetblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: rgb(58, 92, 93);
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 10px;
+}
+.pass-box {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: white;
+  display: block;
+  margin: 0.3rem;
+  border-radius: 5px;
+}
+.rows {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0.3rem;
+}
+label {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.3rem;
+}
+.right input {
+  width: 2rem;
+}
+button {
+  width: 93%;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(42, 70, 71);
+  border: 1px solid rgb(21, 34, 35);
+  transition: ease-in-out 0.4s;
+}
+@media screen and (max-width: 600px) {
+  .box {
+    width: 60%;
+  }
+}
